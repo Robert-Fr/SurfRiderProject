@@ -14,13 +14,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('login');
 });
 
-Route::get('connexion', function () {
-    return view('connexion');
+Route::get('login', function () {
+    return view('login');
 });
 
 Route::get('checker', function () {
-    return view('checker');
+	return view('checker');
 });
+
+Route::get('dashboard', function () {
+    return view('dashboard');
+});
+
+Route::get('subscriber', function () {
+    return view('subscriber');
+});
+

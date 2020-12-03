@@ -33,6 +33,7 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        'fad373d645dd668e85d44ccf3c38fbd6' => __DIR__ . '/..' . '/guzzlehttp/streams/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -85,9 +86,11 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
             'Symfony\\Component\\ErrorHandler\\' => 31,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'SpotifyWebAPI\\' => 14,
         ),
         'R' => 
         array (
+            'Rennokki\\Larafy\\' => 16,
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
@@ -127,6 +130,7 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         ),
         'G' => 
         array (
+            'GuzzleHttp\\Stream\\' => 18,
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
@@ -299,6 +303,14 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'SpotifyWebAPI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jwilsson/spotify-web-api-php/src',
+        ),
+        'Rennokki\\Larafy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rennokki/larafy/src',
+        ),
         'Ramsey\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
@@ -370,6 +382,10 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         'Illuminate\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+        ),
+        'GuzzleHttp\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/streams/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -1345,7 +1361,6 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         'GuzzleHttp\\Exception\\ClientException' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Exception/ClientException.php',
         'GuzzleHttp\\Exception\\ConnectException' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Exception/ConnectException.php',
         'GuzzleHttp\\Exception\\GuzzleException' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Exception/GuzzleException.php',
-        'GuzzleHttp\\Exception\\InvalidArgumentException' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Exception/InvalidArgumentException.php',
         'GuzzleHttp\\Exception\\RequestException' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Exception/RequestException.php',
         'GuzzleHttp\\Exception\\SeekException' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Exception/SeekException.php',
         'GuzzleHttp\\Exception\\ServerException' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Exception/ServerException.php',
@@ -1402,9 +1417,22 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         'GuzzleHttp\\RedirectMiddleware' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/RedirectMiddleware.php',
         'GuzzleHttp\\RequestOptions' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/RequestOptions.php',
         'GuzzleHttp\\RetryMiddleware' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/RetryMiddleware.php',
+        'GuzzleHttp\\Stream\\AppendStream' => __DIR__ . '/..' . '/guzzlehttp/streams/src/AppendStream.php',
+        'GuzzleHttp\\Stream\\CachingStream' => __DIR__ . '/..' . '/guzzlehttp/streams/src/CachingStream.php',
+        'GuzzleHttp\\Stream\\Exception\\SeekException' => __DIR__ . '/..' . '/guzzlehttp/streams/src/Exception/SeekException.php',
+        'GuzzleHttp\\Stream\\FnStream' => __DIR__ . '/..' . '/guzzlehttp/streams/src/FnStream.php',
+        'GuzzleHttp\\Stream\\GuzzleStreamWrapper' => __DIR__ . '/..' . '/guzzlehttp/streams/src/GuzzleStreamWrapper.php',
+        'GuzzleHttp\\Stream\\InflateStream' => __DIR__ . '/..' . '/guzzlehttp/streams/src/InflateStream.php',
+        'GuzzleHttp\\Stream\\LazyOpenStream' => __DIR__ . '/..' . '/guzzlehttp/streams/src/LazyOpenStream.php',
+        'GuzzleHttp\\Stream\\LimitStream' => __DIR__ . '/..' . '/guzzlehttp/streams/src/LimitStream.php',
+        'GuzzleHttp\\Stream\\MetadataStreamInterface' => __DIR__ . '/..' . '/guzzlehttp/streams/src/MetadataStreamInterface.php',
+        'GuzzleHttp\\Stream\\NoSeekStream' => __DIR__ . '/..' . '/guzzlehttp/streams/src/NoSeekStream.php',
+        'GuzzleHttp\\Stream\\Stream' => __DIR__ . '/..' . '/guzzlehttp/streams/src/Stream.php',
+        'GuzzleHttp\\Stream\\StreamDecoratorTrait' => __DIR__ . '/..' . '/guzzlehttp/streams/src/StreamDecoratorTrait.php',
+        'GuzzleHttp\\Stream\\StreamInterface' => __DIR__ . '/..' . '/guzzlehttp/streams/src/StreamInterface.php',
+        'GuzzleHttp\\Stream\\Utils' => __DIR__ . '/..' . '/guzzlehttp/streams/src/Utils.php',
         'GuzzleHttp\\TransferStats' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/TransferStats.php',
         'GuzzleHttp\\UriTemplate' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/UriTemplate.php',
-        'GuzzleHttp\\Utils' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Utils.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -1855,6 +1883,7 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         'Illuminate\\Events\\CallQueuedListener' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/CallQueuedListener.php',
         'Illuminate\\Events\\Dispatcher' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/Dispatcher.php',
         'Illuminate\\Events\\EventServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/EventServiceProvider.php',
+        'Illuminate\\Events\\NullDispatcher' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Events/NullDispatcher.php',
         'Illuminate\\Filesystem\\Cache' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Filesystem/Cache.php',
         'Illuminate\\Filesystem\\Filesystem' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Filesystem/Filesystem.php',
         'Illuminate\\Filesystem\\FilesystemAdapter' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php',
@@ -2254,6 +2283,7 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         'Illuminate\\Support\\Optional' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Optional.php',
         'Illuminate\\Support\\Pluralizer' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Pluralizer.php',
         'Illuminate\\Support\\ProcessUtils' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/ProcessUtils.php',
+        'Illuminate\\Support\\Reflector' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Reflector.php',
         'Illuminate\\Support\\ServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/ServiceProvider.php',
         'Illuminate\\Support\\Str' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Str.php',
         'Illuminate\\Support\\Stringable' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Stringable.php',
@@ -3883,6 +3913,19 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         'Ramsey\\Uuid\\UuidInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidInterface.php',
         'Ramsey\\Uuid\\Validator\\GenericValidator' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/GenericValidator.php',
         'Ramsey\\Uuid\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/ValidatorInterface.php',
+        'Rennokki\\Larafy\\Exceptions\\LarafyException' => __DIR__ . '/..' . '/rennokki/larafy/src/Exceptions/LarafyException.php',
+        'Rennokki\\Larafy\\Exceptions\\SpotifyAPIException' => __DIR__ . '/..' . '/rennokki/larafy/src/Exceptions/SpotifyAPIException.php',
+        'Rennokki\\Larafy\\Exceptions\\SpotifyAuthorizationException' => __DIR__ . '/..' . '/rennokki/larafy/src/Exceptions/SpotifyAuthorizationException.php',
+        'Rennokki\\Larafy\\Larafy' => __DIR__ . '/..' . '/rennokki/larafy/src/Larafy.php',
+        'Rennokki\\Larafy\\LarafyGenerator' => __DIR__ . '/..' . '/rennokki/larafy/src/LarafyGenerator.php',
+        'Rennokki\\Larafy\\LarafySeed' => __DIR__ . '/..' . '/rennokki/larafy/src/LarafySeed.php',
+        'Rennokki\\Larafy\\LarafyServiceProvider' => __DIR__ . '/..' . '/rennokki/larafy/src/LarafyServiceProvider.php',
+        'Rennokki\\Larafy\\Traits\\AlbumsTrait' => __DIR__ . '/..' . '/rennokki/larafy/src/Traits/AlbumsTrait.php',
+        'Rennokki\\Larafy\\Traits\\ArtistsTrait' => __DIR__ . '/..' . '/rennokki/larafy/src/Traits/ArtistsTrait.php',
+        'Rennokki\\Larafy\\Traits\\BrowseTrait' => __DIR__ . '/..' . '/rennokki/larafy/src/Traits/BrowseTrait.php',
+        'Rennokki\\Larafy\\Traits\\PlaylistsTrait' => __DIR__ . '/..' . '/rennokki/larafy/src/Traits/PlaylistsTrait.php',
+        'Rennokki\\Larafy\\Traits\\RequestTrait' => __DIR__ . '/..' . '/rennokki/larafy/src/Traits/RequestTrait.php',
+        'Rennokki\\Larafy\\Traits\\TracksTrait' => __DIR__ . '/..' . '/rennokki/larafy/src/Traits/TracksTrait.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',
@@ -3995,6 +4038,11 @@ class ComposerStaticInit10dff494a782e78e4b20a1db533377f7
         'SebastianBergmann\\Type\\UnknownType' => __DIR__ . '/..' . '/sebastian/type/src/UnknownType.php',
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'SpotifyWebAPI\\Request' => __DIR__ . '/..' . '/jwilsson/spotify-web-api-php/src/Request.php',
+        'SpotifyWebAPI\\Session' => __DIR__ . '/..' . '/jwilsson/spotify-web-api-php/src/Session.php',
+        'SpotifyWebAPI\\SpotifyWebAPI' => __DIR__ . '/..' . '/jwilsson/spotify-web-api-php/src/SpotifyWebAPI.php',
+        'SpotifyWebAPI\\SpotifyWebAPIAuthException' => __DIR__ . '/..' . '/jwilsson/spotify-web-api-php/src/SpotifyWebAPIAuthException.php',
+        'SpotifyWebAPI\\SpotifyWebAPIException' => __DIR__ . '/..' . '/jwilsson/spotify-web-api-php/src/SpotifyWebAPIException.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
